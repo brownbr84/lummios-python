@@ -15,9 +15,6 @@ via Banco Central) e análises de IA com explicabilidade.
 pip install lummios
 ```
 
-> Se o pacote ainda não estiver publicado no PyPI, instale direto do GitHub:
-> `pip install git+https://github.com/brownbr84/lummios-python.git`
-
 ## Chave de API
 
 Gere uma chave gratuita (1.000 requisições/dia) em
