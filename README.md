@@ -1,6 +1,6 @@
 # lummios
 
-Cliente Python para a **[Lummios Developer](https://developers.lummios.com.br)** — API de
+Cliente Python para a **[Lummios Developers](https://developers.lummios.com.br)** — API de
 dados fundamentalistas da B3/CVM: fundamentos linha a linha desde 2010, cotações ajustadas
 por eventos societários, indicadores, dividendos, dados prudenciais de bancos (Basileia/CET1
 via Banco Central) e análises de IA com explicabilidade.
