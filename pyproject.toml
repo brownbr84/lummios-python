@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "lummios"
-version = "0.1.0"
+version = "0.1.1"
 description = "Cliente Python para a API Lummios Developer — dados fundamentalistas da B3/CVM"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -38,6 +38,12 @@ Documentation = "https://developers.lummios.com.br/docs.html"
 "Data Sheet" = "https://developers.lummios.com.br/dataset.html"
 Repository = "https://github.com/brownbr84/lummios-python"
 Issues = "https://github.com/brownbr84/lummios-python/issues"
+# 0.1.1 (26/10/2026): o produto principal nao era linkado nem pelo nosso proprio pacote --
+# todos os enderecos acima apontam para o portal developers. Metadado do PyPI so muda com
+# versao nova, por isso esta release existe.
+Fundamentos = "https://lummios.com.br"
+Metodologia = "https://lummios.com.br/metodologia"
+"Dados abertos" = "https://developers.lummios.com.br/dados-abertos.html"
 
 [tool.hatch.build.targets.wheel]
 packages = ["lummios"]

@@ -3,7 +3,7 @@
 from .client import LummiosClient
 from .exceptions import LummiosAPIError, LummiosAuthError, LummiosError, LummiosQuotaError
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __all__ = [
     "LummiosClient",
     "LummiosError",
