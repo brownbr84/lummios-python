@@ -12,3 +12,16 @@ venv/
 .coverage
 htmlcov/
 .env
+
+# ── Cerca de segredos (Lummios) ─────────────────────────────────────────────
+# Cópia do bloco canônico (Lummios_Data_Hub_React/.gitignore), 31/10/2026: este repositório tem
+# remoto no GitHub e estava fora da cerca. A ordem importa: `.env.*` precisa vir ANTES do
+# `!.env.example`, senão o exemplo some.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+*.bak
+*.bak-*
